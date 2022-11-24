@@ -52,7 +52,7 @@
 					</div><!-- nav left ends-->
 					<div class="nav-right">
 						<ul>
-							<li><input type="text" placeholder="Search" class="search" /><i class="fa fa-search" aria-hidden="true"></i>
+							<li><input type="text" placeholder="Buscar" class="search" /><i class="fa fa-search" aria-hidden="true"></i>
 								<div class="search-result">
 								</div>
 							</li>
@@ -69,7 +69,7 @@
 										</div>
 									</div>
 								</li>
-								<li><label for="pop-up-tweet" class="addTweetBtn">Tweet</label></li>
+								<li><label for="pop-up-tweet" class="addTweetBtn">Rede social</label></li>
 							<?php } else {
 								echo '<li><a href="' . BASE_URL . 'index.php">Have an account? Log in!</a></li>';
 							} ?>

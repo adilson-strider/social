@@ -67,14 +67,14 @@
 			<ul>
 				<li><a href="home.php"><i class="fa fa-home" aria-hidden="true"></i>Início</a></li>
 				<li><a href="<?php echo BASE_URL;?>i/notifications"><i class="fa fa-bell" aria-hidden="true"></i>Notificações<span id="notificaiton"></span></a></li>
-				<li id="messagePopup"><i class="fa fa-envelope" aria-hidden="true"></i>Messages<span id="messages"></span></li>
+				<li id="messagePopup"><i class="fa fa-envelope" aria-hidden="true"></i>Mensagens<span id="messages"></span></li>
 
 			</ul>
 		</div>
 		<!-- nav left ends-->
 		<div class="nav-right">
 			<ul>
-				<li><input type="text" placeholder="Search" class="search"/><i class="fa fa-search" aria-hidden="true"></i>
+				<li><input type="text" placeholder="Buscar" class="search"/><i class="fa fa-search" aria-hidden="true"></i>
 				<div class="search-result">
 					 			
 				</div></li>
@@ -186,10 +186,10 @@
 		</ul>
 		<div class="edit-button">
 			<span>
-				<button class="f-btn" type="button" onclick="window.location.href='<?php echo BASE_URL.$user->username;?>'" value="Cancel">Cancel</button>
+				<button class="f-btn" type="button" onclick="window.location.href='<?php echo BASE_URL.$user->username;?>'" value="Cancelar">Cancelar</button>
 			</span>
 			<span>
-				<input type="submit" id="save" value="Save Changes">
+				<input type="submit" id="save" value="Salvar">
 			</span>
 		 
 		</div>
@@ -265,7 +265,7 @@
 						<ul>
 							<li>
 								<div class="profile-ex-location">
-									<input id="cn" type="text" name="country" placeholder="Country" value="<?php echo $user->country;?>" />
+									<input id="cn" type="text" name="country" placeholder="Cidade" value="<?php echo $user->country;?>" />
 								</div>
 							</li>
 							<li>
